@@ -4,5 +4,10 @@
   "description": "Our shared Typescript config",
   "repository": "git@github.com:digabi/typescript-config.git",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "files": [
+    "common-tsconfig.json",
+    "root/tsconfig.json",
+    "public/tsconfig.json"
+  ]
 }
