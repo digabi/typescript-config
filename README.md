@@ -6,7 +6,7 @@ Shared Typescript config for the digabi project.
 
 Add the required dependencies:
 
-    $ yarn add -D @digabi/typescript-config
+    $ npm install --save-dev @digabi/typescript-config
 
 Add `tsconfig.json` to root folder
 
@@ -49,3 +49,12 @@ Finally, modify `.eslintrc.json` in the project root. `./public/js/tsconfig.json
 To compile server code, run
 
     $ tsc --project server
+
+
+Release new version:
+
+```
+npm version [patch, minor, major]
+git push --follow-tags
+npm publish
+```
