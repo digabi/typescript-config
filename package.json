@@ -1,6 +1,6 @@
 {
   "name": "@digabi/typescript-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Our shared Typescript config",
   "repository": "git@github.com:digabi/typescript-config.git",
   "license": "MIT",
